@@ -1,4 +1,5 @@
 #Example Python math script 
+from __future__ import annotations
 
 def safe_division(a: float, b: float) ->float:
     if b == 0:

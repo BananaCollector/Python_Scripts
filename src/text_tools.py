@@ -8,5 +8,8 @@ def word_count(text: str) -> dict[str, int]:
     return counts
 
 if __name__ == "__main__":
-    sample = "Ala ma kota ala"
-    print(word_count(sample))
+    ex_1 = input("Enter string (or 'd' for default): ")
+    if ex_1=='d':
+        print(word_count("Ala have cat named ala"))
+    else:
+        print(word_count(ex_1))
